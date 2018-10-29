@@ -3,4 +3,4 @@ project(generic)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(generic main.cpp binary_tree.h range.h vector_io.h vector_utils.h static_assert_example.h linked_list.h)
+add_executable(generic main.cpp binary_tree.h range.h vector_io.h vector_utils.h static_assert_example.h linked_list.h quick_sort.h graph.h)

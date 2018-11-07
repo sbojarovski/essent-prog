@@ -18,22 +18,11 @@ class Graph{
 public:
     class Vertex{
     public:
-        std::shared_ptr<void> val;
         unsigned int lbl;
         std::unordered_set<unsigned int> adj;
     };
 
-    struct VertexHash {
-        size_t operator()(const Vertex & v) const noexcept {
-            return std::hash<unsigned int>{}(v.lbl);
-        }
-    };
-    struct VertexComp {
-        bool operator()(const Vertex & v1, const Vertex & v2) const noexcept {
-            return v1.lbl == v2.lbl;
-        }
-    };
-    std::unordered_set<Vertex, VertexHash, VertexComp> V;
+    std::unordered_set<Vertex> V;
 };
 
 #endif //GENERIC_GRAPH_H

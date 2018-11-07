@@ -47,13 +47,12 @@ int main() {
             {0,1,0,1,1}
     };
 //    std::cout << dfs(input, 0, 3) << std::endl;
-    Graph::Vertex v = {nullptr, 0, {0, 1}};
     Graph g = {{
-                       {nullptr, 0, {0, 1}},
-                       {nullptr, 1, {0, 1, 2}},
-                       {nullptr, 2, {1, 2, 3}},
-                       {nullptr, 3, {2, 3, 4}},
-                       {nullptr, 4, {1, 3, 4}}
+                       {0, {0, 1}},
+                       {1, {0, 1, 2}},
+                       {2, {1, 2, 3}},
+                       {3, {2, 3, 4}},
+                       {4, {1, 3, 4}}
                }
     };
     return 0;

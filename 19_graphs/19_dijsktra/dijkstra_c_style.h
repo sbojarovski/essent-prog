@@ -1,0 +1,8 @@
+//
+// Created by stefan on 11/7/18.
+//
+
+#ifndef INC_19_DIJSKTRA_DIJKSTRA_C_STYLE_H
+#define INC_19_DIJSKTRA_DIJKSTRA_C_STYLE_H
+
+#endif //INC_19_DIJSKTRA_DIJKSTRA_C_STYLE_H

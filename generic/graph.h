@@ -19,10 +19,18 @@ public:
     class Vertex{
     public:
         unsigned int lbl;
+        float weight;
         std::unordered_set<unsigned int> adj;
+    };
+    class Edge{
+    public:
+        float weight;
+        unsigned int src;
+        unsigned int dst;
     };
 
     std::unordered_set<Vertex> V;
+    std::
 };
 
 #endif //GENERIC_GRAPH_H
